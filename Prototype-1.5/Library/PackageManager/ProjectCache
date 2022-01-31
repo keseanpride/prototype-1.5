@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637790813730000000
+      ticks: 637791212400000000
     m_Hash: 3770583128
   m_LockFileStatus:
     m_FilePath: /Users/seanpride/Desktop/prototype-1.5/Prototype-1.5/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637790813730000000
+      ticks: 637791212400000000
     m_Hash: 4148923729
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
