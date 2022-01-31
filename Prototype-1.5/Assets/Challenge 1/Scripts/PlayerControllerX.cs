@@ -6,7 +6,7 @@ public class PlayerControllerX : MonoBehaviour
 {
     // variables
     public float vehicleSpeed = 0.5f;
-    public float vehicleTiltSpeed;
+    public float vehicleTiltSpeed = 50.0f;
     private float verticalInput;
 
     void Start()
@@ -19,7 +19,8 @@ public class PlayerControllerX : MonoBehaviour
         // vertical input is set from Unity's input manager
         verticalInput = Input.GetAxis("Vertical");
 
-        // player vehicle's forward movement
+        // player vehicle's forward & tilting movement
         transform.Translate(Vector3.forward * vehicleSpeed);
+        transform.Rotate(Vector3.right, vehicleTiltSpeed * Time.deltaTime * verticalInput);
     }
 }

@@ -821,7 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicleSpeed: 0.5
-  vehicleTiltSpeed: 0
+  vehicleTiltSpeed: 50
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
