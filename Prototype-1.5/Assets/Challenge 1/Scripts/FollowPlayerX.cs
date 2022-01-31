@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class FollowPlayerX : MonoBehaviour
 {
-    public GameObject plane;
-    private Vector3 offset;
 
-    // Start is called before the first frame update
+    // variables
+    public GameObject player;
+    private Vector3 cameraOffset = new Vector3(25, 0, 0);
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position = plane.transform.position + offset;
+        // main camera's transform is set relative to player vehicle's transform + its own offset
+        transform.position = player.transform.position + cameraOffset;
+
     }
 }
