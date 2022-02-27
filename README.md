@@ -1,2 +1,2 @@
 # prototype-1.5
-Demo flight simulator developed with Unity.
+Demo flight game developed with Unity.
